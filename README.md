@@ -7,6 +7,7 @@ sudo docker build -t mysite .
 ## Unzip GetSimple in your dev directory and change owner (apache):
 
 unzip GetSimple.zip myweb/
+
 chown -R www-data:www-data myweb/
 
 ## Run Docker:
